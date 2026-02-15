@@ -1,0 +1,11 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="" path="/v2/pet/findByStatus?status=available"
+    postCharset="" postType="1" serverUid="PetStore_API"
+    slaProfileEnabled="false" uid="06f2c23a-f716-4868-abdb-274dfcd86a75" useKeepAlive="false">
+    <header name="content-type" value="application/json"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
