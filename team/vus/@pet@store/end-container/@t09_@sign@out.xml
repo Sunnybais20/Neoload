@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="T09_SignOut" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="9580fb7e-3f1c-47ad-ab1c-e7c0c6527fd3" weightsEnabled="false">
+    <weighted-embedded-action uid="37671f13-d366-4d0e-b35a-3f0b6779d3b1"/>
+</basic-logical-action-container>
