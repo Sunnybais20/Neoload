@@ -1,0 +1,53 @@
+<me-host citrixSupport="false" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false" uid="localhost" version="8.2.4;build=20230421-104">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Intel(R) Wi-Fi 6 AX201 160MHz"
+        enabled="false" isLoopBack="false" name="wlan1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="sunnybais.lan">
+            <ip value="192.168.1.191"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2603:6080:2df0:3110:0:0:0:1871">
+            <ip value="2603:6080:2df0:3110:0:0:0:1871"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2603:6080:2df0:3110:311a:5b51:87d1:e876">
+            <ip value="2603:6080:2df0:3110:311a:5b51:87d1:e876"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2603:6080:2df0:3110:860f:96d:ec51:d1ab">
+            <ip value="2603:6080:2df0:3110:860f:96d:ec51:d1ab"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:b209:e6f7:6f2e:932f%wlan1">
+            <ip value="fe80:0:0:0:b209:e6f7:6f2e:932f%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="kubernetes.docker.internal">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Bluetooth Device (Personal Area Network)"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:81c4:f629:25c6:1935%eth3">
+            <ip value="fe80:0:0:0:81c4:f629:25c6:1935%eth3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Microsoft Wi-Fi Direct Virtual Adapter"
+        enabled="false" isLoopBack="false" name="wlan2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:4a0e:cd0b:afdd:f3f2%wlan2">
+            <ip value="fe80:0:0:0:4a0e:cd0b:afdd:f3f2%wlan2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>

@@ -1,0 +1,59 @@
+<http-page executeResourcesDynamically="false"
+    name="/actions/Account.action" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@pet@store/%resources%/recorded-artifacts/ff787423-39a6-4463-986e-76f2a497e1e2.zip"
+    slaProfileEnabled="false" thinkTime="1387"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ff787423-39a6-4463-986e-76f2a497e1e2">
+    <embedded-action>d7b09184-c250-4a63-9df2-a934b14c4ca6</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_ff787423-39a6-4463-986e-76f2a497e1e2.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/actions/Account.action"
+    path="/actions/Account.action" postType="6"
+    recordedArtifactZipFileName="team/vus/@pet@store/%resources%/recorded-artifacts/ff787423-39a6-4463-986e-76f2a497e1e2.zip"
+    recordedResponseCode="200"
+    refererUid="6e384ce0-aefc-4fc2-809d-d07aeadb5a26"
+    responseSize="3854" serverUid="petstore.octoperf.com"
+    slaProfileEnabled="false" uid="d7b09184-c250-4a63-9df2-a934b14c4ca6" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d7b09184-c250-4a63-9df2-a934b14c4ca6.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d7b09184-c250-4a63-9df2-a934b14c4ca6.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1" endsWithSimple=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="2" matchNumberAdv="2" matchNumberSimple="1"
+        name="PetStore"
+        regExp="_sourcePage&quot; value=&quot;(.*?)&quot; />&lt;input type="
+        regExpAdv="_sourcePage&quot; value=&quot;(.*?)&quot; />&lt;input type="
+        setDefaultValue="true" startsWithSimple="" template="$1$"
+        templateAdv="$1$" uid="13a3226f-f7ab-4034-b06f-1d2c937d16a2" xpath=""/>
+    <parameter encodeName="true" encodeValue="true" name="signonForm"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://petstore.octoperf.com/actions/Catalog.action"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=1BCDAF9D8F650A3C1E4BEEF8C78BA13B"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not(A:Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;144&quot;, &quot;Google Chrome&quot;;v=&quot;144&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Sun, 15 Feb 2026 22:45:15 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+content-length: 3854&#xd;
+content-language: en-US&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload</responseHeaders>
+    <record-html-infos extractorContent="Sign In" extractorOccurence="3"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>

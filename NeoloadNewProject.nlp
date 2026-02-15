@@ -1,0 +1,14 @@
+# Project description file
+
+project.name=NeoloadNewProject
+project.version=8.4
+project.original.version=8.4
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=8.2.4
+project.is-open-test-settings-after-upload=false
+project.id=d1c07ef5-df1c-4a14-af50-e0990e1abaff
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/Sunnybais20/Neoload.git
